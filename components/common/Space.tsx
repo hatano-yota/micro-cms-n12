@@ -4,7 +4,7 @@ type Props = {
   type: 5 | 10 | 14 | 20 | 24 | 28 | 32 | 40 | 52 | 60;
 };
 
-const Space: React.VFC<Props> = ({ type }) => {
+const Space: React.FC<Props> = ({ type }) => {
   return (
     <div
       className={cn({
